@@ -1,0 +1,22 @@
+{
+    "receivers": "./config/receivers.json",
+    "sendDelay": 5000,
+    "template": "./template",
+    "smtptransporter": {
+        "host": "smtpserver",
+        "secure": true,
+        "port": 465,
+        "auth": {
+            "user": "user",
+            "pass": "password"
+        }
+    },
+    "mysqlconnection": {
+        "host": "localhost",
+        "user": "youruser",
+        "password": "yourpassword",
+        "database": "emailsender",
+        "multipleStatements": true
+    },
+    "analytics": "http://localhost"
+}

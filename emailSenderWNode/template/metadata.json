@@ -1,0 +1,6 @@
+{
+    "from": "Caterina <youruser@yourdomain.net>",
+    "subject": "Dummy Email",
+    "text": "./template/template.txt",
+    "html": "./template/template.html"
+}
